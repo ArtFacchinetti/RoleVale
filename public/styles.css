@@ -3,6 +3,14 @@ body, html {
     height: 100vh;
 }
 
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+
 .search-bar-cont {
     width: 100%;
     margin: 0;
@@ -73,4 +81,95 @@ body, html {
     } to {
         width: 100%;
     }
+}
+
+
+ /* Card */
+.role-card-cont {
+    flex: auto;
+
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px
+}
+
+.role-card {
+    height: 350px;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+    border: 4px solid black;
+
+    transition: all ease 0.5s;
+}
+
+.role-card:hover {
+    box-shadow: 8px 8px 0 #000;
+    transform: translate(-8px,-8px);
+}
+
+/* Card Content */
+.rc-img-cont {
+    flex: 1;
+
+    overflow: hidden;
+}
+
+.rc-img {
+    width: 100%;
+}
+
+.rc-info-cont {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.rc-name {
+font-family: Arial, sans-serif;
+  font-weight: bold;    padding: 0;
+    margin: 8px;
+}
+
+.rc-type {
+    font-size: small;
+    font-style: italic;
+    text-decoration: underline;
+
+    margin: 2px;
+        font-family: "Courier New", monospace;
+
+}
+
+.rc-tag-cont {
+    padding:10px;
+}
+
+.rc-tag {
+    height: 1.5em;
+    width: 1.5em;
+
+    background-color: #808080;
+
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rc-local-cont {
+    flex: auto;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+    font-family: "Courier New", monospace;
 }
