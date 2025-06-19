@@ -132,8 +132,8 @@ main {
 }
 
 .rc-name {
-    font-family: "Courier New";
-    padding: 0;
+font-family: Arial, sans-serif;
+  font-weight: bold;    padding: 0;
     margin: 8px;
 }
 
@@ -143,6 +143,8 @@ main {
     text-decoration: underline;
 
     margin: 2px;
+        font-family: "Courier New", monospace;
+
 }
 
 .rc-tag-cont {
@@ -168,4 +170,6 @@ main {
     display: flex;
     align-items: flex-end;
     justify-content: end;
+
+    font-family: "Courier New", monospace;
 }
