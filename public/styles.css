@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    height: 100vh;
+}
+
+.search-bar-cont {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex
+}
+
+.search-bar {
+    flex: 1;
+    margin: 30px;
+    padding: 1em;
+
+    border: 4px solid black;
+    outline: none;
+    
+    box-shadow: -8px -8px 0 black;
+
+    font-family: "Courier New", monospace;
+
+    transition: ease 0.5s;
+
+    animation: typing 2s;
+}
+
+.search-bar:focus {
+    background-color: #000;
+    border-color: #808080;
+
+    transform: translate(8px,8px);
+        box-shadow: -16px -16px 0 black;
+
+
+    color: #fff;
+}
+
+.search-bar:focus:hover {
+    transform: translate(8px,8px);
+}
+
+.search-bar:focus::placeholder {
+    color: #ffffffd0;
+}
+
+
+.search-bar:hover {
+    transform: translate(8px,8px);
+
+    box-shadow: -16px -16px 0 black;
+}
+
+.search-bar::placeholder {
+    font-weight: bold;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes opening {
+    from {
+        width: 0;
+    } to {
+        width: 100%;
+    }
+}
