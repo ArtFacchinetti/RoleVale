@@ -1,0 +1,11 @@
+[
+    {
+    "id": 1,
+    "nome": "MEDUSA",
+    "tipo": "HAMBURGUERIA",
+    "imagem": "./images/medusa-logo.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Paraíso",
+    "tags": ["18+", "Fumo", "Romântico"]
+    }
+]
