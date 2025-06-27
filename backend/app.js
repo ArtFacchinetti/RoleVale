@@ -1,20 +1,31 @@
 import express from 'express';
 import cors from 'cors';
+import path, { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
+
 import lugaresRoutes from './routes/lugares.js';
 
-import path from 'path';
+// Define __dirname corretamente (caminho de app.js)
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-const __dirname = path.dirname('indexe.html');
+// Caminho para a pasta public (um nível acima)
+const publicPath = join(__dirname, '..', 'public');
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, 'public')))
+// Servir arquivos estáticos de ../public
+app.use(express.static(publicPath));
 
+// Página principal
+app.get('/', (req, res) => {
+  res.sendFile(join(publicPath, 'index.html'));
+});
 
-// Usa as rotas dos lugares
+// API de lugares
 app.use('/lugares', lugaresRoutes);
 
 export default app;
