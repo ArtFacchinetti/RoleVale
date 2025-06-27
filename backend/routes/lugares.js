@@ -1,8 +1,6 @@
 import express from 'express';
 import fs from 'fs';
 
-import {gerarHTMLLugar, tagRendering} from '../render.js';
-
 const router = express.Router();
 
 function getData() {
@@ -18,7 +16,7 @@ function getData() {
 const data = getData()
 
 router.get('/', (req, res) => {
-    res.send()
+    res.send(data)
 })
 
 export default router;
