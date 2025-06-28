@@ -2,7 +2,25 @@
     {
     "id": 1,
     "nome": "MEDUSA",
-    "tipo": "HAMBURGUERIA",
+    "tipo": ["HAMBURGUERIA"],
+    "imagem": "./images/medusa-logo.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Paraíso",
+    "tags": ["18+", "Fumo", "Romântico"]
+    },
+    {
+    "id": 2,
+    "nome": "PARLO",
+    "tipo": ["HAMBURGUERIA"],
+    "imagem": "./images/medusa-logo.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Paraíso",
+    "tags": ["18+", "Fumo", "Romântico"]
+    },
+    {
+    "id": 3,
+    "nome": "GORDO",
+    "tipo": ["PIZZARIA"],
     "imagem": "./images/medusa-logo.jpg",
     "cidade": "JACAREÍ",
     "bairro": "Paraíso",
