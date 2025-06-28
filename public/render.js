@@ -32,4 +32,12 @@ function tagRendering(tag) {
     }
 }
 
-export {gerarHTMLLugar, tagRendering}
+function loopThroughSearch(data) {
+  document.getElementById('container').innerHTML = "";
+  data.forEach(element => {
+    const html = gerarHTMLLugar(element);
+    document.getElementById('container').innerHTML += html;
+  });
+}
+
+export default loopThroughSearch;
