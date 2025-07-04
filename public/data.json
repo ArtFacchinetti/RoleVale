@@ -1,0 +1,48 @@
+[
+    {
+    "id": 1,
+    "nome": "MEDUSA",
+    "tipo": ["HAMBURGUERIA"],
+    "imagem": "../imagens/medusa-logo.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Paraíso",
+    "tags": ["pizza"]
+    },
+    {
+    "id": 2,
+    "nome": "PARLO",
+    "tipo": ["HAMBURGUERIA","TESTE"],
+    "imagem": "./images/medusa-logo.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Paraíso",
+    "tags": ["18+", "Fumo", "Romântico"]
+    },
+    {
+    "id": 3,
+    "nome": "GORDO",
+    "imagem": "./images/medusa-logo.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Paraíso",
+    "tags": ["pizza","bebida","natureza","casal"],
+        "tipo": ["PIZZARIA","TESTE","CHOPERIA"]
+
+    },
+        {
+    "id": 4,
+    "nome": "Cheirin Bão Ibis",
+    "tipo": ["CAFETERIA"],
+    "imagem": "./images/cheirin.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Centro",
+    "tags": ["cafe","doce","casal"]
+    },
+        {
+    "id": 5,
+    "nome": "AlumiVidros",
+    "tipo": ["DISTRIBUIDORA"],
+    "imagem": "./images/cheirin.jpg",
+    "cidade": "JACAREÍ",
+    "bairro": "Centro",
+    "tags": ["usuario"]
+    }
+]
