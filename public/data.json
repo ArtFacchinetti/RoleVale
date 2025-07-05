@@ -3,7 +3,7 @@
     "id": 1,
     "nome": "MEDUSA",
     "tipo": ["HAMBURGUERIA"],
-    "imagem": "../imagens/medusa-logo.jpg",
+    "imagem": "./imagens/medusa-logo.jpg",
     "cidade": "JACAREÍ",
     "bairro": "Paraíso",
     "tags": ["pizza"]
