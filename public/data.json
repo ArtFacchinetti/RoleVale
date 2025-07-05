@@ -1,31 +1,28 @@
 [
     {
     "id": 1,
-    "nome": "MEDUSA",
+    "nome": "Medusa Burger & Beer",
     "tipo": ["HAMBURGUERIA"],
-    "imagem": " ./imagens/medusa-logo.jpg",
+
     "cidade": "JACAREÍ",
     "bairro": "Paraíso",
-    "tags": ["pizza"]
+    "tags": ["hamburguer"]
     },
     {
     "id": 2,
-    "nome": "PARLO",
-    "tipo": ["HAMBURGUERIA","TESTE"],
-    "imagem": "./images/medusa-logo.jpg",
+    "nome": "Monster Burguer",
+    "tipo": ["HAMBURGUERIA"],
     "cidade": "JACAREÍ",
-    "bairro": "Paraíso",
-    "tags": ["18+", "Fumo", "Romântico"]
+    "bairro": "Jd. California",
+    "tags": ["hamburguer","casal","família","milkshake"]
     },
     {
     "id": 3,
-    "nome": "GORDO",
-    "imagem": "./images/medusa-logo.jpg",
+    "nome": "Chopperia do Gordo",
     "cidade": "JACAREÍ",
-    "bairro": "Paraíso",
-    "tags": ["pizza","bebida","natureza","casal"],
-        "tipo": ["PIZZARIA","TESTE","CHOPERIA"]
-
+    "bairro": "Centro",
+    "tags": ["bebida","pizza","restaurante","casal","família"],
+    "tipo": ["CHOPERIA","PIZZARIA"]
     },
         {
     "id": 4,
