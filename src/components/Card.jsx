@@ -29,7 +29,7 @@ const Card = ({ data }) => {
     return (
         <article className="card">
             <div className="card-image">
-                <img src={imgError ? './imagens/img-error.jpg' : data.imagem} onError={()=>{setImgError(true)}}></img>
+                <img src={imgError ? './imagens/img-error.jpg' : data.imagem} onError={()=>{setImgError(true)}} loading='lazy'></img>
             </div>
             <div className="card-content">
                 <h3 className="card-title">{data.nome}</h3>
