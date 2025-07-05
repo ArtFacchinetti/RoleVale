@@ -13,7 +13,11 @@ const fontAwsomeTable = {
     doce: 'fa-solid fa-cookie-bite',
     natureza: 'fa-solid fa-tree',
     sorvete: 'fa-solid fa-ice-cream',
+    milkshake: 'fa-solid fa-ice-cream',
+    acaí: 'fa-solid fa-ice-cream',
     question: 'fa-solid fa-question',
+    familia: 'fa-solid fa-people-group',
+    restaurante : 'fa-solid fa-utensils',
     casal: 'fa-solid fa-heart'
 }
 
@@ -22,25 +26,24 @@ const Card = ({ data }) => {
 
     const [imgError, setImgError] = useState(false);
 
-    useEffect(()=> {
+    useEffect(() => {
         console.log('Error na imagem? ', imgError)
     })
 
     return (
         <article className="card">
             <div className="card-image">
-                <img src={imgError ? './imagens/img-error.jpg' : data.imagem} onError={()=>{setImgError(true)}} loading='lazy'></img>
+                <h3>{data.nome}</h3>
             </div>
             <div className="card-content">
-                <h3 className="card-title">{data.nome}</h3>
                 <p className="card-description">
                     {data.tipo.join(', ')}
                 </p>
                 <div className="card-icons">
                     {data.tags.map((tag, index) =>
-                        <div className="card-icon" key={index} title="teste">
+                        <div className="card-icon" key={index}>
                             <span className="icon-tootltip">{tag.toLocaleUpperCase()}</span>
-                            <i className={fontAwsomeTable[tag] || fontAwsomeTable['question']} ></i>
+                            <i className={fontAwsomeTable[tag.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()] || fontAwsomeTable['question']} ></i>
                         </div>
                     )}
                 </div>

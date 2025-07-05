@@ -1,7 +1,3 @@
-import imagem from '/imagens/medusa-logo.jpg'
-import icon from '/icon.ico'
-const importings = [imagem, icon]
-
 let data;
 
 async function fetchData() {
