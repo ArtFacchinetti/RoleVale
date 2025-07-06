@@ -52,7 +52,7 @@ const Search = ({ setFiltered, data }) => {
 
   return (
     <>
-      <input type='text' onInput={(e) => { setFiltered(() => searchStr(data, e.target.value)) }} className='search-input'></input >
+      <input type='text' onInput={(e) => { setFiltered(() => searchStr(data, e.target.value)) }} className='search-input' placeholder="PESQUISE POR NOME, TAG, TIPO..."></input >
     </>
 
   )
