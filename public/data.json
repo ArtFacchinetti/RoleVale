@@ -1,45 +1,390 @@
 [
     {
-    "id": 1,
-    "nome": "Medusa Burger & Beer",
-    "tipo": ["HAMBURGUERIA"],
-
-    "cidade": "JACAREÍ",
-    "bairro": "Paraíso",
-    "tags": ["hamburguer"]
+        "id": 1,
+        "nome": "Medusa Burger & Beer",
+        "tipo": [
+            "HAMBURGUERIA"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Paraíso",
+        "tags": [
+            "hamburguer",
+            "casal"
+        ]
     },
     {
-    "id": 2,
-    "nome": "Monster Burguer",
-    "tipo": ["HAMBURGUERIA"],
-    "cidade": "JACAREÍ",
-    "bairro": "Jd. California",
-    "tags": ["hamburguer","casal","família","milkshake"]
+        "id": 2,
+        "nome": "Monster Burguer",
+        "tipo": [
+            "HAMBURGUERIA"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Jd. California",
+        "tags": [
+            "hamburguer",
+            "casal",
+            "família",
+            "milkshake"
+        ]
     },
     {
-    "id": 3,
-    "nome": "Chopperia do Gordo",
-    "cidade": "JACAREÍ",
-    "bairro": "Centro",
-    "tags": ["bebida","pizza","restaurante","casal","família"],
-    "tipo": ["CHOPERIA","PIZZARIA"]
+        "id": 3,
+        "nome": "Choperia do Gordo",
+        "tipo": [
+            "CHOPERIA",
+            "PIZZARIA"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "bebida",
+            "pizza",
+            "restaurante",
+            "casal",
+            "família"
+        ]
     },
-        {
-    "id": 4,
-    "nome": "Cheirin Bão Ibis",
-    "tipo": ["CAFETERIA"],
-    "imagem": "./images/cheirin.jpg",
-    "cidade": "JACAREÍ",
-    "bairro": "Centro",
-    "tags": ["cafe","doce","casal"]
+    {
+        "id": 4,
+        "nome": "Cheirin Bão Ibis",
+        "tipo": [
+            "CAFETERIA"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "cafe",
+            "doce",
+            "casal"
+        ]
     },
-        {
-    "id": 5,
-    "nome": "AlumiVidros",
-    "tipo": ["DISTRIBUIDORA"],
-    "imagem": "./images/cheirin.jpg",
-    "cidade": "JACAREÍ",
-    "bairro": "Centro",
-    "tags": ["usuario"]
+    {
+        "id": 5,
+        "nome": "Minuano Jacareí",
+        "tipo": [
+            "RESTAURANTE",
+            "RODÍZIO",
+            "SELF-SERVICE"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "restaurante",
+            "pizza",
+            "rodízio",
+            "casal",
+            "família",
+            "música"
+        ]
+    },
+    {
+        "id": 6,
+        "nome": "Água Doce",
+        "tipo": [
+            "RESTAURANTE",
+            "BAR",
+            "CACHAÇARIA"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "restaurante",
+            "bebida",
+            "família"
+        ]
+    },
+    {
+        "id": 7,
+        "nome": "Nacho Man Jacareí",
+        "tipo": [
+            "RESTAURANTE",
+            "MEXICANO",
+            "PORÇÃO"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "mexicano",
+            "bebida",
+            "delivery"
+        ]
+    },
+    {
+        "id": 8,
+        "nome": "Wanikawa",
+        "tipo": [
+            "RESTAURANTE",
+            "JAPONÊS",
+            "BUFFET"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "japonês",
+            "bebida",
+            "delivery",
+            "casal",
+            "família"
+        ]
+    },
+    {
+        "id": 9,
+        "nome": "São João Jacareí",
+        "tipo": [
+            "RESTAURANTE",
+            "PIZZARIA",
+            "LANCHONETE"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "restaurante",
+            "pizza",
+            "delivery",
+            "família"
+        ]
+    },
+    {
+        "id": 10,
+        "nome": "Trietto",
+        "tipo": [
+            "RESTAURANTE",
+            "BUFFET",
+            "RODÍZIO",
+            "GRELHADOS"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "restaurante",
+            "pizza",
+            "churrasco",
+            "casal",
+            "família"
+        ]
+    },
+    {
+        "id": 11,
+        "nome": "Choperia Pizzaria Coleginho",
+        "tipo": [
+            "PIZZARIA",
+            "CHOPERIA"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Coleginho",
+        "tags": [
+            "pizza",
+            "bebida",
+            "família"
+        ]
+    },
+    {
+        "id": 12,
+        "nome": "Restaurante Rancho Mineiro",
+        "tipo": [
+            "RESTAURANTE",
+            "GRELHADOS",
+            "MINEIRO"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Santa Maria",
+        "tags": [
+            "restaurante",
+            "churrasco",
+            "mineiro",
+            "bebida",
+            "família"
+        ]
+    },
+    {
+        "id": 13,
+        "nome": "Portuga Villa Branca",
+        "tipo": [
+            "RESTAURANTE"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Villa Branca",
+        "tags": [
+            "restaurante",
+            "bebida",
+            "casal",
+            "família"
+        ]
+    },
+    {
+        "id": 14,
+        "nome": "Tio Basílio",
+        "tipo": [
+            "RESTAURANTE",
+            "PIZZARIA",
+            "CAFÉ",
+            "GRELHADOS",
+            "RODÍZIO"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Jd. das Indústrias",
+        "tags": [
+            "restaurante",
+            "pizza",
+            "café",
+            "churrasco",
+            "casal",
+            "família"
+        ]
+    },
+    {
+        "id": 15,
+        "nome": "Restaurante Damasco",
+        "tipo": [
+            "RESTAURANTE",
+            "SELF-SERVICE"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "restaurante",
+            "família"
+        ]
+    },
+    {
+        "id": 16,
+        "nome": "La Pampa",
+        "tipo": [
+            "RESTAURANTE",
+            "GRELHADOS",
+            "SELF-SERVICE"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "restaurante",
+            "churrasco",
+            "família"
+        ]
+    },
+    {
+        "id": 17,
+        "nome": "Restaurante Viguetto",
+        "tipo": [
+            "RESTAURANTE",
+            "ITALIANO",
+            "SELF-SERVICE"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Jd. Leonidia",
+        "tags": [
+            "restaurante",
+            "italiano",
+            "família"
+        ]
+    },
+    {
+        "id": 18,
+        "nome": "Anexo 2.0",
+        "tipo": [
+            "BAR",
+            "MÚSICA AO VIVO"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Jd. Leonidia",
+        "tags": [
+            "bebida",
+            "música",
+            "casal",
+            "sinuca"
+        ]
+    },
+    {
+        "id": 19,
+        "nome": "Pirâmides Pizzas",
+        "tipo": [
+            "PIZZARIA"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "pizza",
+            "família"
+        ]
+    },
+    {
+        "id": 20,
+        "nome": "Rei do Amigão",
+        "tipo": [
+            "HAMBURGUERIA",
+            "ESPECIAL *"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Cidade Salvador",
+        "tags": [
+            "hamburguer",
+            "especial",
+            "casal"
+        ]
+    },
+    {
+        "id": 21,
+        "nome": "Bar do Peixoto",
+        "tipo": [
+            "BAR"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Jd. Santa Maria",
+        "tags": [
+            "bebida",
+            "família"
+        ]
+    },
+    {
+        "id": 22,
+        "nome": "Pastel da Villa",
+        "tipo": [
+            "RODÍZIO",
+            "PASTELARIA",
+            "ESPECIAL *"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Villa Branca ",
+        "tags": [
+            "doce",
+            "especial",
+            "pastel",
+            "casal",
+            "rodízio"
+        ]
+    },
+    {
+        "id": 23,
+        "nome": "Sushi Tina",
+        "tipo": [
+            "RESTAURANTE",
+            "JAPONÊS"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Centro",
+        "tags": [
+            "restaurante",
+            "japonês",
+            "delivery",
+            "casal"
+        ]
+    },
+    {
+        "id": 24,
+        "nome": "Aprisco Açaí & Sorvetes",
+        "tipo": [
+            "SORVETERIA",
+            "RODÍZIO",
+            "ESPECIAL *"
+        ],
+        "cidade": "JACAREÍ",
+        "bairro": "Jd. Paraíba",
+        "tags": [
+            "sorvete",
+            "rodízio",
+            "milkshake",
+            "especial",
+            "casal"
+        ]
     }
 ]

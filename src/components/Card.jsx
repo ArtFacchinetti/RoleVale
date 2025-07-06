@@ -4,6 +4,7 @@ import './css/Card.css'
 const fontAwsomeTable = {
     user: 'fa-solid fa-user',
     pizza: 'fa-solid fa-pizza-slice',
+    rodizio: 'fa-solid fa-pizza-slice',
     hamburguer: 'fa-solid fa-burger',
     lanche: 'fa-solid fa-burger',
     bebida: 'fa-solid fa-beer-mug-empty',
@@ -18,7 +19,15 @@ const fontAwsomeTable = {
     question: 'fa-solid fa-question',
     familia: 'fa-solid fa-people-group',
     restaurante : 'fa-solid fa-utensils',
-    casal: 'fa-solid fa-heart'
+    casal: 'fa-solid fa-heart',
+    delivery: 'fa-solid fa-motorcycle',
+    japones: 'fa-solid fa-fish',
+    churrasco: 'fa-solid fa-fire',
+    mineiro: 'fa-solid fa-cheese',
+    italiano: 'fa-solid fa-italic',
+    sinuca: 'fa-solid fa-gamepad',
+    especial: 'fa-solid fa-star',
+    mexicano: 'fa-solid fa-pepper-hot'
 }
 
 const Card = ({ data }) => {

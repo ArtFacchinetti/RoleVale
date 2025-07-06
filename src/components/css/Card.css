@@ -166,8 +166,8 @@
  }
 
  .card-image h3 {
-   word-break: break-all;
-
+   line-break: normal;
+  text-align: center;
  }
 
  .card-image img {
